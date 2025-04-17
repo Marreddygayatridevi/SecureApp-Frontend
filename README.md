@@ -1,4 +1,4 @@
-📝 Notes Application
+#📝 Notes Application
 
 A full-stack Notes application built with React (frontend) and FastAPI (backend), featuring JWT Authentication and SQLite3 as the database.
 🚀 Getting Started
