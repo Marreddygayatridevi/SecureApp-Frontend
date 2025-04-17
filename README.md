@@ -12,18 +12,21 @@ Follow these steps to set up and run the app locally.
 
 ### Frontend
 
-📁 **Directory**: `Frontend-Main\\react\\myapp\\src`
+📁 **Directory**: 
 
-
-1. Install the required dependencies:
+1. Navigate to your directory:
+   ```bash
+   cd /../../
+   ```
+2. Install the required dependencies:
    ```bash
    npm install
    ```
-2. Start the React development server:
+3. Start the React development server:
    ```bash
    npm start
    ```
-3. The application frontend runs at: [http://localhost:3000](http://localhost:3000)
+4. The application frontend runs at: [http://localhost:3000](http://localhost:3000)
 
 ---
 
