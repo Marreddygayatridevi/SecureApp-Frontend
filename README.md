@@ -1,39 +1,52 @@
-#📝 Notes Application
+# 📝 Notes Application
 
 A full-stack Notes application built with React (frontend) and FastAPI (backend), featuring JWT Authentication and SQLite3 as the database.
-🚀 Getting Started
+---
+
+## 🚀 Getting Started
 
 Follow these steps to set up and run the app locally.
-Frontend
+
+---
 
 
-Install the required dependencies:
+### Frontend
 
-npm install
+📁 **Directory**: `Frontend-Main\\react\\myapp\\src`
 
-Start the React development server:
 
-npm start
+1. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the React development server:
+   ```bash
+   npm start
+   ```
+3. The application frontend runs at: [http://localhost:3000](http://localhost:3000)
 
-    The application frontend runs at: http://localhost:3000
-🗂 Directory Structure
+---
 
-Frontend (Frontend-Main/react/myapp/src):
+## 🗂 Directory Structure
 
-    index.js: Application entry point.
-    api.js: Axios configuration for API requests.
-    notebook.png: Application assets.
-    components:
-        Navbar.js: Navigation bar for the app.
-        Login.js: User login page with JWT-based authentication.
-        Register.js: User registration page for creating new accounts.
-        NotesPage.js: Main page for managing notes (CRUD operations).
-        NoteCard.js: Component for displaying individual notes on the Notes Page.
-        NoteForm.js: Form component for creating or editing notes.
-✍ Author
+- **Frontend (`react/myapp/src`)**:
+  - `index.js`: Application entry point.
+  - `api.js`: Axios configuration for API requests.
+  - `notebook.png`: Application assets.
+  - **components**:
+    - `Navbar.js`: Navigation bar for the app.
+    - `Login.js`: User login page with JWT-based authentication.
+    - `Register.js`: User registration page for creating new accounts.
+    - `NotesPage.js`: Main page for managing notes (CRUD operations).
+    - `NoteCard.js`: Component for displaying individual notes on the Notes Page.
+    - `NoteForm.js`: Form component for creating or editing notes.
+   
+      
+---
+# ✍ Author
 by Marreddy Gayatri Devi.
 
-📜 License
+# 📜 License
 This project is available for free use in personal and educational contexts.
 
 
