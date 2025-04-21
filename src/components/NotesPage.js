@@ -10,11 +10,11 @@ const NotesPage = () => {
   const [editNoteId, setEditNoteId] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
 
-  // ✅ Merged fetchNotes function
+  
   const fetchNotes = async () => {
     try {
       const response = await api.get("/note/");
-      console.log("Fetched Notes:", response.data); // Optional debug
+      console.log("Fetched Notes:", response.data); 
       setNotes(response.data);
     } catch (error) {
       console.error(
