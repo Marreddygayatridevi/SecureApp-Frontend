@@ -12,7 +12,7 @@ const NoteForm = ({
     e.preventDefault();
     try {
       if (editNoteId !== null) {
-        await api.put(`/note/${editNoteId}/`, formData); // ✅ FIXED
+        await api.put(`/note/${editNoteId}/`, formData); 
         setEditNoteId(null);
       } else {
         await api.post("/note/", formData);
