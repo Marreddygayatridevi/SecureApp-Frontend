@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import api from "../api"; // Assuming 'api' is already configured to point to the backend
+import api from "../api"; 
 import { useNavigate } from "react-router-dom";
 
 const Register = () => {
@@ -7,7 +7,7 @@ const Register = () => {
     username: "",
     email: "",
     password: "",
-    is_active: true, // Default value, can be changed if necessary
+    is_active: true, 
   });
   const navigate = useNavigate();
 
